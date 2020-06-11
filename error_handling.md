@@ -6,7 +6,6 @@
 "Anything that can happen, will happen"
 ```
 
-- Anticipate every error
 - Don't trust the user
 
 ### Syntax
