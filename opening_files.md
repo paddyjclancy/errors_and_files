@@ -44,3 +44,23 @@ for u in t:
 - "a" will APPEND
 - "w" will WRITE / OVERRIDE
 - write() instead of read()
+
+```python
+f = open("open_test.txt", "a")
+f.write("\nLine 4")
+f.close()
+
+g = open("open_test.txt")
+print(g.read())
+```
+
+- close() required to commit changes
+
+```python
+f = open("open_test.txt", "w")
+f.write("\nThis will be the only text in the file")
+f.close()
+
+g = open("open_test.txt")
+print(g.read())
+```

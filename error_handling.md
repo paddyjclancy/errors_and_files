@@ -44,3 +44,8 @@ while True:
 ```
 - Now if the integer is greater than 10, output will be: "Exception: Number too high"
 - While loop will also break
+
+#### Other info
+- Don't capture every exception
+    - Keeps program more simple for user
+    - Code should be designed to avoid excessive errors  
